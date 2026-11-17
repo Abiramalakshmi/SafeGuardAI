@@ -1,0 +1,44 @@
+
+# Python virtual environments
+venv/
+venv310/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dataset and recordings
+datasets/
+recordings/
+clips/
+uploads/
+
+# Model files
+*.pth
+*.pt
+*.h5
+*.onnx
+
+# Project cache
+.streamlit/secrets.toml
+
+# Node dependencies
+node_modules/
+dist/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+**/.streamlit/secrets.toml

@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.vite/
+.env
+.env.*
+project_structure.txt
